@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>WalletConnect Example</title>
+    
+    <!-- WalletConnect Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/client@1.7.1/dist/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/qrcode-modal@1.7.1/dist/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        #content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1 id="page-title">WalletConnect Demo</h1>
+        
+        <div id="page-actions">
+            <p>Click to Connect</p>
+            <button id="connectButton">WalletConnect</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js" defer></script>
+</body>
+</html>
